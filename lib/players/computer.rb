@@ -7,6 +7,7 @@ module Players
           result = i
         end
       end
+      result
 
 
     end
