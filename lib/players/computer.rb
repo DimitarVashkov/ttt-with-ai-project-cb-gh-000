@@ -5,9 +5,10 @@ module Players
       board.cells.each_with_index do |x,i|
         if x == ' '
           result = i
+          break
         end
       end
-      result
+      (result+1).to_s
     end
   end
 end
